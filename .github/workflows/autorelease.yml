@@ -5,7 +5,7 @@ on:
   
   push:
     tags:
-      - *
+      - '23_**'
 
 jobs:
   auto-release:
