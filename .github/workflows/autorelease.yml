@@ -7,6 +7,9 @@ on:
     tags:
       - '23_**'
 
+permissions:
+  contents: write
+
 jobs:
   auto-release:
     runs-on: ubuntu-latest
